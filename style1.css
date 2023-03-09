@@ -1,0 +1,222 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    margin-top: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position:relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 8px
+   
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.navbar ul li {
+    padding: 12px;
+    margin-right: 12px;
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    box-sizing: border-box;
+    border-radius: 33px;
+    border: 22px;
+    text-decoration: none;
+    
+}
+
+#btn1 {
+    background-color: hsl(0, 94%, 66%);
+    transition: 0.5s;
+    border-radius: 55px;
+    height: 32px;
+    width: 100px;
+    margin-top: 5px;
+  
+}
+
+#btn1:hover {
+    background-color: aliceblue;
+
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+    display: flex;
+    margin: 12px;
+}
+
+.Crypto img {
+    display: flex;
+    height: 230px;
+    width: auto;
+}
+
+.container {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 4%;
+    overflow: hidden;
+}
+
+.text {
+    overflow: hidden;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image1 img {
+    margin-top: 10%;
+    margin-right: 120px;
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+}
+
+.btn2 {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: none;
+    border:solid green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 14px;
+    margin: 30px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 4px 4px green;
+}
+
+.btn2:hover {
+    background-color: rgb(49, 222, 49);
+    box-shadow: none;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.heading{
+    margin-top: 122px;
+   display: flex;
+   margin-left: 13%;
+   font-size: larger;
+   margin-bottom: 12px;
+}
+.para{
+    font-size: larger;
+    display: flex;
+    margin-top: 172px;
+    justify-content: center;
+    align-items:center ;
+    padding: 12px;  
+    margin-left:-300px;
+    
+}
+
+.crypto{
+    box-sizing: border-box;
+    display:flex;
+    flex: .33;
+padding: 12px;
+margin-top: 30px;
+
+}
+.binance{
+    box-sizing: border-box;
+    border: 1px;
+    border:solid blue;
+    box-shadow: 6px 6px blue;
+    margin-left: 43px;
+    transition: .4s;
+}
+.coinbase{
+    border: solid blue;
+    box-shadow: 6px 6px blue;
+    box-sizing: border-box;
+    transition: .4s;
+    margin-left: 42px;
+    margin-right: 33px;
+}
+.wazirx{
+    border:solid blue;
+    box-shadow: 6px 6px blue;
+    box-sizing: border-box;
+    margin-left: 42px;
+    transition: .4s;
+}
+.wazirx:hover{
+    box-shadow: none;
+}
+.binance:hover{
+    box-shadow: none;
+}
+.coinbase:hover{
+    box-shadow: none;
+}
+
+.image img{
+    height: 124px;
+    margin-left:32%;
+    margin-bottom: 20px;
+}
+
+.crypto-btn{
+   margin-top: 22px;
+   margin-bottom: 23px;
+    margin-left: 152px;
+    font-size: x-large;
+    border-radius: 12px;
+    padding: 5px;
+    background-color:lightgreen;
+}
+.footer-content{
+    display: flex;
+    flex: 0.33;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    margin-left: 30px;
+    margin-right: 180px;
+}
+.box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 22px;
+    padding: 2px;
+}
